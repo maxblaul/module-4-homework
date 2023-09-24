@@ -20,7 +20,9 @@ function startCountdown() {
     }, 1000);
 }
 document.getElementById('wronganswerButton').addEventListener('click', function () {
-    time -= 10; 
+    time -= 15; 
     updateTimerDisplay();
 });
 startCountdown();
+
+function 
