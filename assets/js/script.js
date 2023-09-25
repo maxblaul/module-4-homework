@@ -1,5 +1,6 @@
 // set interval time to 1 minute
 let time = 60;
+var 
 // timer needs to update after every 1 second
 function updateTimerDisplay() {
     var timerElement = document.getElementById('timer');

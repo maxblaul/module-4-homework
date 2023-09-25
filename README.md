@@ -26,7 +26,7 @@ Read me for Module 4 homework assignment
 
     - We will use javascript to dynamically create our HTML 
         - createElement to create 
-            - Maybe H1 for our question, buttons for our choices, maybe an H2 to display wrong/right to user
+            - Maybe  for our question, buttons for our choices, maybe an H2 to display wrong/right to user
 
 var questions = [
     {
@@ -45,5 +45,5 @@ var questions = [
         answer: "parentheses",
     }
 ]
-var h1El = createElement("h1")
-h1El.textContent = questions[1].question -->
+var El = createElement("")
+El.textContent = questions[1].question -->
