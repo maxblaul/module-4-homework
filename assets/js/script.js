@@ -1,6 +1,19 @@
 var wronganswerButton="wronganswer"
 var correctanswerButton="correctanswer"
 var startButton=document.querySelector(".start-button")
+var qIndex = 0;
+
+var questionsList = [
+    {
+        q: "Which of the following is NOT a primitive data type in JavaScript?",
+        opts: ["Number","Boolean", "Object" ],
+        correctAns: "Object"
+    },
+    {
+        q: "Which of the following is NOT a primitive data type in JavaScript?",
+        opts: ["Number","Boolean" ]
+    }
+]
 
 startButton.addEventListener("click", function () {
     var container=document.querySelector(".container")
