@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
-    <script src="./assets/js/script.js"></script>
 </head>
+
 <body>
     <header>
         <div class="header-font">JavaScript Quiz!</div>
@@ -16,50 +17,61 @@
     <main>
         <section>
             <div id="timer">60</div>
-            <div class="container">
-                <h1>Question 1</h1>
-            <p> Which of the following is NOT a primitive data type in JavaScript?</p>
-              <ul>
-                <li><input type="button" id="wronganswer" value = "A">A. Number</li>
-                <li><input type="button" id="wronganswer" value = "B">B. Boolean</li>
-                <li><input type="button" id="correctanswer" value = "C">C. Object</li>
-                <li><input type="button" id="wronganswer" value = "D">D. String</li>
-              </ul>
-            <h1>Question 2</h1>
-            <p> What does the “NaN” value represent in JavaScript?</p>
-            <ul>
-                <li><input type="button" id="correctanswer" value="A">A. Not a number</li>
-                <li><input type="button" id="wronganswer" value="B">B. Null value</li>
-                <li><input type="button" id="wronganswer" value="C">C. Boolean value</li>
-                <li><input type="button" id="wronganswer" value="D">D. Undefined value</li>
-            </ul>
-            <h1> Question 3 </h1>
-            <p> What is the correct syntax for a “for” loop in JavaScript?</p>
-            <ul>
-                <li><input type="button" id="wronganswer" value="A">A. for (i = 5; i > 0; i-)</li>
-                <li><input type="button" id="wronganswer" value="B">B. for (i = 0;i < 5; i++)</li>
-                <li><input type="button" id="wronganswer" value="C">C. for (var i = 5; i > 0; i-)</li>
-                <li><input type="button" id="correctanswer" value="D">D. for (var i =0; < 5; i++)</li>
-            </ul>
-            <h1> Question 4</h1>
-            <p> What is the difference between “==” and “===” operators in JavaScript?</p>
-            <ul>
-                <li><input type="button" id="wronganswer" value="A">A. They are interchangeable.</li>
-                <li><input type="button" id="correctanswer" value="B">B. “===” performs a strict comparison, while “==” performs a loose comparison.</li>
-                <li><input type="button" id="wronganswer" value="C">C. They both perform the same type of comparison.</li>
-                <li><input type="button" id="wronganswer" value="D">D. “==” performs a strict comparison, while “===” performs a loose comparison.</li>
-            </ul>
-            <h1> Question 5</h1>
-            <p> Inside which HTML element do we put the JavaScript?</p>
-            <ul>
-                <li><input type="button" id="correctanswer" value="A">A. Script </li>
-                <li><input type="button" id="wronganswer" value="B">B. Java </li>
-                <li><input type="button" id="wronganswer" value="C">C. JS</li>
-                <li><input type="button" id="wronganswer" value="D">D. Scripting</li>
+            <div class="container hide">
+               <div class="questionDiv">
+                 <h1>Question 1</h1>
+                <p> Which of the following is NOT a primitive data type in JavaScript?</p>
+                <ul>
+                    <li><input type="button" class="wronganswer" value="A">A. Number</li>
+                    <li><input type="button" class="wronganswer" value="B">B. Boolean</li>
+                    <li><input type="button" class="correctanswer" value="C">C. Object</li>
+                    <li><input type="button" class="wronganswer" value="D">D. String</li>
+                </ul>
+               </div> 
+               <div class="questionDiv">
+                <h1>Question 2</h1>
+                <p> What does the “NaN” value represent in JavaScript?</p>
+                <ul>
+                    <li><input type="button" class="correctanswer" value="A">A. Not a number</li>
+                    <li><input type="button" class="wronganswer" value="B">B. Null value</li>
+                    <li><input type="button" class="wronganswer" value="C">C. Boolean value</li>
+                    <li><input type="button" class="wronganswer" value="D">D. Undefined value</li>
+                </ul>
+               </div>
+                
+                <h1> Question 3 </h1>
+                <p> What is the correct syntax for a “for” loop in JavaScript?</p>
+                <ul>
+                    <li><input type="button" class="wronganswer" value="A">A. for (i = 5; i > 0; i-)</li>
+                    <li><input type="button" class="wronganswer" value="B">B. for (i = 0;i < 5; i++)</li>
+                    <li><input type="button" class="wronganswer" value="C">C. for (var i = 5; i > 0; i-)</li>
+                    <li><input type="button" class="correctanswer" value="D">D. for (var i =0; < 5; i++)</li>
+                </ul>
+                <h1> Question 4</h1>
+                <p> What is the difference between “==” and “===” operators in JavaScript?</p>
+                <ul>
+                    <li><input type="button" class="wronganswer" value="A">A. They are interchangeable.</li>
+                    <li><input type="button" class="correctanswer" value="B">B. “===” performs a strict comparison,
+                        while “==” performs a loose comparison.</li>
+                    <li><input type="button" class="wronganswer" value="C">C. They both perform the same type of
+                        comparison.</li>
+                    <li><input type="button" class="wronganswer" value="D">D. “==” performs a strict comparison, while
+                        “===” performs a loose comparison.</li>
+                </ul>
+                <h1> Question 5</h1>
+                <p> Insclasse which HTML element do we put the JavaScript?</p>
+                <ul>
+                    <li><input type="button" class="correctanswer" value="A">A. Script </li>
+                    <li><input type="button" class="wronganswer" value="B">B. Java </li>
+                    <li><input type="button" class="wronganswer" value="C">C. JS</li>
+                    <li><input type="button" class="wronganswer" value="D">D. Scripting</li>
             </div>
-            
+
             </ul>
         </section>
     </main>
+    <script src="./assets/js/script.js"></script>
 </body>
+
+
 </html>
