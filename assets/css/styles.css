@@ -5,13 +5,17 @@ button {
 
 }
 body {
+    justify-content: center;
 
 }
 header {
+    font-size: 30px; 
 
 }
 h1 {
-    
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
 }
 .hide {
     display: none;
