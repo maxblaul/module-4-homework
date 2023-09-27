@@ -3,8 +3,9 @@ Read me for Module 4 homework assignment
 
 I admit i am pretty lost on this assignment. I tried to do the Javascript and HTML one way but then it occured to me that I was overthinking it. Then I tried it another way using more DOM and now it is totally messed up and my code is useless. I am quite aware of what I need to have and what components. But the actual coding, syntax, and arrangement of the documents has me all sorts of messed up. I am really struggling with this one as you can see. Some of them I get and some of them I do not. This one I clearly do not. Better luck next time I guess?
 
-So what I have here is the original document I had. Then what is commented out is the "right way" to do what I was trying to do. Using the DOM. I realize now that this is the better approach. But for some reason at the time I was trying to use more HTML than I should have been using. I think I was just confused on how to apply that concept at first or where and how exactly to use it. I figured it out too late and now I have a bunch of code that doesn't really do anything. So I'm going to comment out all of the 
+So what I have here is the original document I had. Then what is commented on is the "right way" to do what I was trying to do. Using the DOM. I realize now that this is the better approach. But for some reason at the time I was trying to use more HTML than I should have been using. I think I was just confused on how to apply that concept at first or where and how exactly to use it. I figured it out too late and now I have a bunch of code that doesn't really do anything. So I'm going to comment out all of the 
 
+![screenshot](image.png)
 
 
 
